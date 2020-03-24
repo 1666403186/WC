@@ -1,0 +1,8 @@
+public static main (String arges[]){
+   int i;
+   String str;
+   // 这是一行注释
+  /*多行注释*/
+
+
+}

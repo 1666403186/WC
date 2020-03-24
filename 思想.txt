@@ -1,0 +1,52 @@
+insert into user (name,password) values ("liyu" ,"123");
+
+if(  select *from user where name="linzehong" == 有结果   )
+{
+ 用户名正确
+
+密码
+		if(  select *from user where `password`="12355"  == 有结果   )
+		{
+		密码正确
+		跳转到登陆成功界面
+
+		}
+		else{
+			密码错误
+		}
+}
+else return 给前端 说用户名用户名
+
+
+			mybaits
+代码 ----》》》数据库
+java						SQL
+user类					一张user表
+user对象				一行数据
+成员变量				字段
+
+
+方法
+public String name;
+name="liyu"
+
+public msg 处理登录成功的方法（）{
+	if(  select *from user where name="liyu" == 有结果   )
+{
+ 用户名正确
+
+密码
+		if(  select *from user where `password`="12355"  == 有结果   )
+		{
+		密码正确
+		跳转到登陆成功界面
+
+		}
+		else{
+			密码错误
+		}
+}
+else return 给前端 说用户名用户名
+}
+
+
